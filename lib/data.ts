@@ -1,9 +1,9 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
-import youtubeHomePage from "@/public/youtubeHomePage.png";
-import auth_app from "@/public/auth_app.png";
-import budget_app from "@/public/budget_app.png";
+import youtubeHomePage from "../public/youtubeHomePage.png";
+import authApp from "../public/auth_app.png";
+import budgetApp from "../public/budget_app.png";
 
 export const links = [
   {
@@ -72,14 +72,14 @@ export const projectsData = [
     description:
       "I built a MERN stack web app with authentication features like sign-up, login, and logout. The front-end uses React and React Router, while the back-end is built with Node.js, Express, and MongoDB, utilizing JWT for access control.",
     tags: ["React", "MongoDB", "Express",  "Node.js",  "Tailwind",],
-    imageUrl: auth_app,
+    imageUrl: authApp,
   },
   {
     title: "Budget App",
     description:
       "I create a CRUD application to build a simple budget app using React. This project covers various intermediate and beginner-level React concepts, which come together to create a complex and practical application.",
     tags: ["React", "MongoDB"],
-    imageUrl: budget_app,
+    imageUrl: budgetApp,
   },
 ] as const;
 
