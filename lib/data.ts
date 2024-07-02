@@ -1,9 +1,9 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
-import youtubeHomePage from "@/public/youtubeHomePage.PNG";
-import auth_app from "@/public/auth_app.PNG";
-import budget_app from "@/public/budget_app.PNG";
+import youtubeHomePage from "@/public/youtubeHomePage.png";
+import auth_app from "@/public/auth_app.png";
+import budget_app from "@/public/budget_app.png";
 
 export const links = [
   {
