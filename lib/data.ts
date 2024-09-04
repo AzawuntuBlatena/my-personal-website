@@ -1,7 +1,7 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
-import youtubeHomePage from "../public/youtubeHomePage.jpg";
+import youtubeHomePage from "../public/imageyt.png";
 import authApp from "../public/authApp.jpg";
 import budgetApp from "../public/budgetApp.jpg";
 
@@ -49,14 +49,7 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "2022",
   },
-  // {
-  //   title: "Full-Stack Developer",
-  //   location: "Houston, TX",
-  //   description:
-  //     "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-  //   icon: React.createElement(FaReact),
-  //   date: "2021 - present",
-  // },
+  
 ] as const;
 
 export const projectsData = [
@@ -65,6 +58,7 @@ export const projectsData = [
     description:
       "I built a YouTube home page clone using Tailwind CSS, React, and TypeScript. This project allowed me to showcase my skills in modern web technologies while creating a complex UI that mimics the popular video platform. By leveraging the benefits of these tools, I delivered a responsive and user-friendly experience.",
     tags: ["React", "Next.js", "Tailwind"],
+    link: 'https://azabla-youtube-homepage.netlify.app/',
     imageUrl: youtubeHomePage,
   },
   {
@@ -72,9 +66,29 @@ export const projectsData = [
     description:
       "I built a MERN stack web app with authentication features like sign-up, login, and logout. The front-end uses React and React Router, while the back-end is built with Node.js, Express, and MongoDB, utilizing JWT for access control.",
     tags: ["React", "MongoDB", "Express",  "Node.js",  "Tailwind",],
+    link: 'https://azabla-youtube-homepage.netlify.app/',
     imageUrl: authApp,
   },
   {
+    title: "Budget App",
+    description:
+      "I create a CRUD application to build a simple budget app using React. This project covers various intermediate and beginner-level React concepts, which come together to create a complex and practical application.",
+    tags: ["React", "MongoDB"],
+    link: 'https://azabla-youtube-homepage.netlify.app/',
+    imageUrl: budgetApp,
+  },  {
+    title: "Budget App",
+    description:
+      "I create a CRUD application to build a simple budget app using React. This project covers various intermediate and beginner-level React concepts, which come together to create a complex and practical application.",
+    tags: ["React", "MongoDB"],
+    imageUrl: budgetApp,
+  },  {
+    title: "Budget App",
+    description:
+      "I create a CRUD application to build a simple budget app using React. This project covers various intermediate and beginner-level React concepts, which come together to create a complex and practical application.",
+    tags: ["React", "MongoDB"],
+    imageUrl: budgetApp,
+  },  {
     title: "Budget App",
     description:
       "I create a CRUD application to build a simple budget app using React. This project covers various intermediate and beginner-level React concepts, which come together to create a complex and practical application.",
@@ -105,4 +119,5 @@ export const skillsData = [
   "Python",
   // "Django",
   "Framer Motion",
+  
 ] as const;
