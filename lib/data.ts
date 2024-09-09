@@ -67,7 +67,7 @@ export const projectsData = [
     description:
       "I developed a feature-rich video-sharing app using React Native, Animatable for smooth animations, and Appwrite for reliable backend support. The app allows users to sign up, log in, browse and search videos, upload media, and manage their profiles. Key features include a dynamic home screen with animated video lists, pull-to-refresh functionality, and intuitive tab navigation. Through this project, I gained expertise in creating engaging user interfaces, handling real-time data, ensuring responsiveness across devices, and integrating backend services effectively. This experience enhanced my skills in UI/UX design, real-time data management, and scalable app architecture.",
     tags: ["ReactNative", "Expo", "Nativewind","Animatable","Appwrite"],
-    see: 'https://ai-landing-page-three.vercel.app/',
+    see: 'https://github.com/AzawuntuBlatena/reactnative-video-share',
     imageUrl: videoshare
   },
   {
@@ -75,7 +75,7 @@ export const projectsData = [
     description:
       "I developed a feature-rich job search and application app using React Native, where users can browse, search, and apply for jobs across various categories. Through this project, I gained hands-on experience in creating visually appealing UI/UX using React Native components, integrating third-party APIs to fetch and display job listings, and implementing custom hooks for data fetching. I also learned how to implement search and pagination functionality, manage loading states and errors effectively, and ensure responsive design for optimal user experience across devices. This project solidified my understanding of mobile app development best practices and code reusability.",
     tags: ["Node.js","React Native","Axios","Expo","Stylesheet"],
-    see: 'https://ai-landing-page-three.vercel.app/',
+    see: 'https://github.com/AzawuntuBlatena/react_native_jobs',
     imageUrl: jobapp2,
   },
  
