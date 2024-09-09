@@ -19,33 +19,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Computer Engineering</span>, I decided to
-        pursue my passion for programming. I dedicated myself to learning
-        programming on my own, investing my full time and effort into mastering{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        {" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
-      </p>
-
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy reading
-        Books, watching movies, and playing with my friends. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning a new language. I am always eager to expand my knowledge and
-        take on new challenges, both in my professional and personal life
+      I am a junior full-stack developer with a Computer Engineering degree, graduating with a GPA of 3.51. Driven by a passion for programming, I embarked on a self-taught journey to master full-stack development, focusing on both web and mobile technologies. My core skills include JavaScript, React, React Native, Next.js, Node.js, and MongoDB, with additional experience in TypeScript and Prisma. I enjoy tackling complex problems and have a strong interest in mobile app development, where I can combine my technical expertise with creative problem-solving. I am currently seeking a full-time software developer position to further expand my skills and contribute to innovative mobile projects.
       </p>
     </motion.section>
   );
