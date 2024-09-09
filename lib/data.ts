@@ -2,13 +2,13 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import youtubeHomePage from "../public/imageyt.png";
-import apple from "../public/apple.png";
-import ailanding from "../public/ail.png";
+import appleImg from "../public/apple.png";
+import aiLanding from "../public/ail.png";
 import authApp from "../public/authApp.jpg";
-import library from "../public/library.png";
+import libraryImg from "../public/library.png";
 import budgetApp from "../public/budgetApp.jpg";
-import home from "../public/home.png";
-import ecommerce from "../public/ecommerce.png";
+import homeImg from "../public/home.png";
+import ecommerceImg from "../public/ecommerce.png";
 import videoshare from "../public/videoshare.jpg";
 import jobapp2 from "../public/jobapp.png";
 
@@ -85,7 +85,7 @@ export const projectsData = [
       "This is a clone of Apple's iPhone 15 Pro website using React.js and TailwindCSS. It highlights the effective use of GSAP (Greensock Animations) and Three.js for displaying iPhone 15 Pro models in various colors and shapes.",
     tags: ["React", "Threejs", "GSAP",  "R-T-Fiber","R-T-Drei", "Tailwind",],
     see: 'https://apple-website-theta-ten.vercel.app/',
-    imageUrl: apple,
+    imageUrl: appleImg,
   },
   {
     title: "AI Landing Page",
@@ -93,7 +93,7 @@ export const projectsData = [
       "Developed the Brainwave website using React.js and Tailwind CSS, showcasing modern UI/UX principles. Implemented engaging parallax animations, intricate UI geometry, and stylish gradients to enhance visual appeal. The project taught me advanced design techniques, responsive layouts, and the application of the latest UI trends.",
     tags: ["React",  "Tailwind",],
     see: 'https://ai-landing-page-three.vercel.app/',
-    imageUrl: ailanding,
+    imageUrl: aiLanding,
   },
 
   {
@@ -126,7 +126,7 @@ export const projectsData = [
       "Through building and deploying an eCommerce website landing page using ReactJS and Tailwind CSS, I gained hands-on experience in creating responsive navigation bars, scrollable and modern hero pages, custom popup modals, and implementing dark mode features. I also learned to incorporate animations, follow best practices, and enhance debugging skills.",
     tags: ["React", "Tailwindcss"],
     see: 'https://azabla-youtube-homepage.netlify.app/',
-    imageUrl: ecommerce,
+    imageUrl: ecommerceImg,
   },
   {
     title: "Book Store",
@@ -134,7 +134,7 @@ export const projectsData = [
       "Built a web application using Node.js, Express, and MongoDB, implementing the MVC architecture. Through this project, I learned how to create and connect a backend to a database, deploy web applications, and style a professional-looking website. This experience gave me a complete understanding of backend development and the ability to build my own web applications.",
     tags: ["MongoDB", "Express",  "Node.js", "ejs"],
     see: 'https://bete-book-1.onrender.com/ ',
-    imageUrl: library ,
+    imageUrl: libraryImg,
   },
 
   {
@@ -143,7 +143,7 @@ export const projectsData = [
       "During my final year of studies, I undertook a comprehensive project to develop a Share Management System for a company. The system was developed using Nextjs for the front end, Nodejs for the backend, and MongoDB for the database. It was designed to digitalize day-to-day operations, including trading shares, managing shareholder information, and keeping track of shareholders and share data.",
     tags: ["React","Nextjs","MongoDB", "Express",  "Node.js", "Tailwindcss"],
     see: 'https://github.com/AzawuntuBlatena/share_management_system.git',
-    imageUrl: home ,
+    imageUrl: homeImg ,
   },
 ] as const;
 
